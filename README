@@ -1,0 +1,10 @@
+# how to  build jar
+# after finishing this work, you can see jar-file in target directory
+./gradlew build
+
+# how to execute with default port(8080)
+java -jar ./gs-rest-service-0.1.0.jar
+
+# how to execute with port 10080
+java -jar ./gs-rest-service-0.1.0.jar --server.port=10080
+
